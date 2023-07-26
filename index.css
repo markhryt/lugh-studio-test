@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+html{
+    font-family: "Montserrat", "sans-serif";
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+body{
+    width: 600px;
+    grid-column-start: 2;
+}
+.content{
+    background-color: #314E75;
+}
+.instagram img{
+    height: 3rem;
+}
+.facebook img{
+    height: 2rem;
+}
+.twitter img{
+    height: 2rem;
+}
+.linkedin img{
+    height: 1.5rem;
+}
+.social{
+    display: flex;
+    flex-wrap: wrap;
+    grid-column-start: 2;
+    height: 3rem;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.social img{
+    margin:0.5rem;
+}
+
+#heading{
+    font-family: "Montserrat", "sans-serif";
+    color: #314E75;
+    font-size: 4rem;
+    position: relative;
+    top:1rem;
+}
+
+.story1{
+    color:white;
+    padding:1rem;
+}
+.story1 p{
+    position: relative;
+    left: 3rem;
+    width: 70%;
+    line-height:2.2em;
+    
+}
+.story1 h2{
+    position: relative;
+    left: 1rem;
+}
+ hr{
+   position: relative;
+   right: 0px;
+   border-top: #76BC46 5px solid;
+   border-right: none;
+   border-left: none;
+   border-bottom: none;
+ }
+
+.image-container img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.story2{
+    background-color: #314E75;
+    color:white;
+    padding:1rem;
+    padding:3rem;
+}
+.story2 h3{
+    color: #439539;
+}
+
+.story2 .tips{
+    background-color: #D4D7DB;
+    color:#314E75;
+    position: relative;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:40%;
+    height: 3rem;
+    
+}
+
+.quiz img{
+    width: 60%;
+    padding-right: 20%;
+    padding-left: 20%;
+}
+.quiz h3{
+    width: 100%;
+    padding-left: 2rem;
+    color: #439539;
+}
+.quiz h1{
+    width: 100%;
+    padding-left: 2rem;
+    color: #314E75;
+}
+.quiz{
+    display: flex;
+    background-color: white;
+    border: 1px solid blue;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 642px;
+    margin: 5%;
+}
+.quiz p{
+    color: #314E75;
+    font-size: small;
+    padding-left: 2rem;
+    width: 100%;
+}
+
+.but{
+    background-color:#76BC46;
+    color:white;
+    position: relative;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:40%;
+    height: 3rem;
+    margin-left: 2rem;
+}
+.but a{
+    text-decoration: none;
+    color:white;
+}
+.but a:visited{
+    color:white;
+}
+
+.connect{
+    color: #314E75;
+    background-color:#F2F2F2;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.connect h1{
+    margin-left: 2rem;
+}
+.connect p{
+    margin-left: 2rem;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.logo p{
+    background-color: white;
+    height: 4rem;
+    font-size: small;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#email-form{
+    background-color: #41699d;
+    color: white;
+    width: 600px;
+    height: 600px;
+    border: 3px solid black;
+    border-radius: 3%;
+    z-index: 10;
+    align-self: center;
+    position: absolute;
+    display: none;
+}
+#email-form form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#email-form label{
+    width: 100%;
+    text-align: center;
+    margin: 1rem;
+}
+
+#submit{
+    align-self: flex-end;
+    width: 30%;
+    margin-right: 35%;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+#message{
+    width:50%;
+}
